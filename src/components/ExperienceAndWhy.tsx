@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Tailored Cultural Encounters",
-  description: "Choose from immersive on-shore excursions that connect you to local culture, cuisine, and traditions—led by knowledgeable local experts.",
+  title: "Ocean State of Mind",
+  description: "Encourages slow, mindful travel with wellness, cuisine, and discovery at the heart of each journey.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Ultra-Luxury Comfort",
-  description: "Stay in oceanfront suites with private terraces, enjoy fine dining across multiple restaurants, and relax in serene wellness spaces.",
+  title: "All Oceanfront Suites",
+  description: "Every suite features a private terrace and floor-to-ceiling windows for uninterrupted sea views.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Flexible, Slower Travel",
-  description: "With longer port stays and overnight calls, travelers can explore more deeply and at a more relaxed pace.",
+  title: "Curated Enrichment",
+  description: "Offers destination-led programming, local guest speakers, and immersive experiences ashore.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Enrichment at Every Turn",
-  description: "Onboard programming includes wellness rituals, expert talks, and creative workshops for holistic enrichment.",
+  title: "Next-Gen Luxury Design",
+  description: "Refined interiors with European craftsmanship and expansive outdoor lounges define their signature style.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Explora Journeys Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
